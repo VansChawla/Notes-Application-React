@@ -1,13 +1,15 @@
 import React from "react";
-import Mainroutes from "./routes/Mainroutes";
-import Navbar from "./components/Navbar";
+import Create from "./components/Create";
+import Read from "./components/Read";
 
 const App = () => {
 
   return (
-    <div className="pt-10 px-[10%] min-h-screen lg:min-h-screen w-[100%] lg:w-screen font-thin bg-gray-800 text-white">
-      <Navbar />
-      <Mainroutes />
+    <div className="border-1 min-h-screen lg:flex bg-black text-white">
+
+        <Create />
+        <Read />
+
     </div>
   );
 };
